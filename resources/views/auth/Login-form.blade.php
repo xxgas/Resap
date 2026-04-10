@@ -50,7 +50,7 @@
                     <div>
                         <label class="block mb-2 text-sm font-bold text-[#001f4d]">NIS / NIP</label>
                         <input type="text" name="nip_nis" value="{{ old('nip_nis') }}" required
-                            class="w-full px-4 py-3 border @error('nip_nis') border-red-400 @else border-gray-300 @enderror rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all placeholder:text-gray-300 shadow-sm"
+                            class="w-full px-4 py-3 border @error('nip_nis') border-red-400 @enderror rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all placeholder:text-gray-300 shadow-sm"
                             placeholder="Masukkan NIS atau NIP Anda">
                     </div>
 
